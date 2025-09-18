@@ -1,9 +1,8 @@
 {
   "name": "day3",
   "version": "1.0.0",
-  "description": "Student API backend for Kalvium task",
+  "description": "Student API backend",
   "main": "server.js",
-  "type": "module",
   "scripts": {
     "start": "node server.js"
   },

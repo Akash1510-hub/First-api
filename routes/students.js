@@ -1,12 +1,9 @@
-import express from "express";
-import fs from "fs";
-import path from "path";
-import { fileURLToPath } from "url";
-import { v4 as uuidv4 } from "uuid";
+const express = require("express");
+const fs = require("fs");
+const path = require("path");
+const { v4: uuidv4 } = require("uuid");
 
 const router = express.Router();
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 const dataPath = path.join(__dirname, "../data/students.json");
 
 
@@ -53,10 +50,9 @@ router.post("/", (req, res) => {
   res.status(201).json(newStudent);
 });
 
-
 router.get("/", (req, res) => {
   const students = readStudents();
   res.json(students);
 });
 
-export default router;
+module.exports = router;
