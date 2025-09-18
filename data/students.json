@@ -1,0 +1,18 @@
+[
+  {
+    "id": "b23e3f2e-094c-4a70-9529-32bc1871a936",
+    "name": "Akash",
+    "age": 19,
+    "course": "BTech CSE",
+    "year": "2nd",
+    "status": "active"
+  },
+  {
+    "id": "f52ec2fa-0d50-457e-8e25-d460243d32e7",
+    "name": "Sanjay",
+    "age": 19,
+    "course": "BTech CSE",
+    "year": "2nd",
+    "status": "active"
+  }
+]
